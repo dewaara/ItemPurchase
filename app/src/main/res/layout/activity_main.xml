@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@android:color/darker_gray"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:paddingHorizontal="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvSubsts"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Connect"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:layout_marginTop="4dp" />
+        <TextView
+            android:id="@+id/tvSubid"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Product Name"
+            android:layout_marginStart="5dp"
+            android:layout_weight="1"
+            android:layout_marginTop="4dp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_marginTop="20dp"
+        android:paddingHorizontal="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtprice"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Toatl Price"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/tvBenifit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="View Benefit"
+            android:layout_marginStart="5dp"
+            android:layout_weight="1"
+            android:layout_marginTop="4dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_marginTop="15dp"
+        android:paddingHorizontal="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_price"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Get Price"
+            android:onClick="btn_get_price"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:layout_marginTop="4dp" />
+        <Button
+            android:id="@+id/btn_sub"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="PAYMENT"
+            android:onClick="btn_sub_click"
+            android:layout_marginStart="5dp"
+            android:layout_weight="1"
+            android:layout_marginTop="4dp" />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_marginTop="15dp"
+        android:paddingHorizontal="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_qt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="exit"
+            android:onClick="btn_quit"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:layout_marginTop="4dp"
+            android:enabled="true"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_marginTop="15dp"
+        android:paddingHorizontal="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Privacy Policy"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:layout_marginTop="4dp" />
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
